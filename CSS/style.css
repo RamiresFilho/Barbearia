@@ -157,6 +157,7 @@ thead {
 #tabela {
     display: flex;
     justify-content: center;
+    margin-bottom: 3rem;
 }
 
 td, th {
@@ -297,6 +298,18 @@ td, th {
     .icone {
         width: auto;
     }
+
+    .produtos {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+
+    .produtos li {
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
 }
 /*CONTATO*/
 @media screen and (max-width: 480px) { /* É dentro dessa media query que criamos um estilo visual que compreenda telas de até 480px. */
@@ -309,11 +322,21 @@ td, th {
     }
 
     nav {
-        position: static;
+        display: flex;
+        justify-content: center;
     }
 
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
+    }
+    #msg-email {
+        margin-left: 50px;
+        width: 75%;
+    }
+
+    table {
+        width: 75%;
+        margin-bottom: 3rem;
     }
 }
 

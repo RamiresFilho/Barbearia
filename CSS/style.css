@@ -112,7 +112,6 @@ form label, form legend { /* Utilizamos a vírgula para replicar as configuraç�
 }
 
 .input-padrao { /* Quando temos um estilo que pode ser repetido, uma excelente estratégia é extrair isso para uma classe e usar a classe para aplicar esses estilos nos nossos elementos. */
-    display: flex;
     margin: 0 0 20px; /* A propriedade margin altera somente as definições do espaçamento externo do elemento, o espaço entre um elemento e outro. */
     padding: 10px 25px; /* A propriedade padding serve para alterarmos o espaçamento interno, entre o conteúdo e a borda. */
     width: 50%;
@@ -153,6 +152,11 @@ thead {
     background: #555555;
     color: white;
     font-weight: bold;   
+}
+
+#tabela {
+    display: flex;
+    justify-content: center;
 }
 
 td, th {

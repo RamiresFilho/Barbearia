@@ -68,8 +68,8 @@
                 <input type="submit" value="Enviar formulário" class="enviar"> <!-- O submit é a opção de enviar e o value é o nome que irá aparecer ao usuário. -->    
             </form>
 
-            <table> <!--Utilizamos a tag <table> para criar uma tabela.-->
-                <div>
+            <div id="tabela">
+                <table> <!--Utilizamos a tag <table> para criar uma tabela.-->
                     <thead>
                     <!-- Dentro de uma tabela, podemos separá-la em três: o cabeçalho, o conteúdo e o rodapé. Assim como separamos o nosso conteúdo da página principal em header, main e footer, dentro da tabela, usamos tags específicas da tabela para poder fazer isso. Dentro da tabela, o cabeçalho eu marco com a tag <thead>, e dentro dele vamos ter essa primeira linha. Dentro do cabeçalho, para dizer que aquela célula é uma célula do cabeçalho, ao invés de usarmos a tag <td>, usamos ainda a tag <th>, que é uma célula do head da tabela. Com isso, nós conseguimos ter um cabeçalho bem mais semântico. -->
                         
@@ -86,7 +86,7 @@
                         <tr>
                             <td colspan="5">Rio de Janeiro</td> 
                         </tr> -->
-
+    
                         </tr>
                         <tr>
                             <td>Terça</td>
@@ -104,9 +104,9 @@
                             <td>Sexta</td>
                             <td>8h - 20h</td>
                         </tr>
-                    </tbody> <!-- As tags <thead>, <tbody> e <tfoot> (rodapé da tabela) ajudam a deixar o conteúdo da tabela mais bem dividido e mais semântico. -->   
-                </div>
-            </table>
+                    </tbody> <!-- As tags <thead>, <tbody> e <tfoot> (rodapé da tabela) ajudam a deixar o conteúdo da tabela mais bem dividido e mais semântico. -->
+                </table>
+            </div>
         </main>
         <footer>
             <img src="./Imagem/logo-branco.png" alt="Logo da Barbearia Alura">
